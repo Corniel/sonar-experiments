@@ -7,4 +7,5 @@ So, to help my report bugs, and/or do feature requests I have this dedicated
 project to experiment with.
 
 ## Reported Isues
+* [Rule S3881: False positive and/or too vague message](https://github.com/SonarSource/sonar-dotnet/issues/2339)
 * [Rule S2259: False positive on switch statements](https://github.com/SonarSource/sonar-dotnet/issues/2338)

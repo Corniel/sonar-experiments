@@ -9,5 +9,6 @@
     <Rule Id="S3874" Action="Warning" />
     <Rule Id="S4462" Action="Warning" />
     <Rule Id="S3717" Action="Warning" />
+    <Rule Id="S4004" Action="Warning" />
   </Rules>
 </RuleSet>

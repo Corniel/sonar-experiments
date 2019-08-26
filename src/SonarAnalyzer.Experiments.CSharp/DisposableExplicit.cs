@@ -2,7 +2,7 @@
 
 namespace SonarAnalyzer.Experiments.CSharp
 {
-    public class Disposable : IDisposable // Should not raise S3881
+    public class DisposableExplicit : IDisposable // Should not raise S3881
     {
         void IDisposable.Dispose()
         {

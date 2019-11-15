@@ -35,7 +35,6 @@
     <Rule Id="S134" Action="Warning" />
     <Rule Id="S138" Action="Warning" />
     <Rule Id="S1449" Action="Warning" />
-    <Rule Id="S1451" Action="Warning" />
     <Rule Id="S1479" Action="Warning" />
     <Rule Id="S1541" Action="Warning" />
     <Rule Id="S1659" Action="Warning" />

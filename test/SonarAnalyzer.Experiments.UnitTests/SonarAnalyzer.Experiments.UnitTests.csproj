@@ -19,4 +19,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SonarAnalyzer.Experiments.CSharp\SonarAnalyzer.Experiments.CSharp.csproj" />
+  </ItemGroup>
+
 </Project>

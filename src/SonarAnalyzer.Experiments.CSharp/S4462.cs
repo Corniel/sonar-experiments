@@ -11,7 +11,12 @@ namespace SonarAnalyzer.Experiments.CSharp
             return continuation().ContinueWith((action) =>
             {
                 return action.Result; // Compliant, ContinueWith() enforces to do so.
-            });
+        });
+        }
+
+        public override string ToString()
+        {
+            return nameof(Task<object>.Result); // Compliant, nameof() does not execute asyn code.
         }
     }
 }

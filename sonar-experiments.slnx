@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/Sonar.Benchmarks/Sonar.Benchmarks.csproj" />
+  <Project Path="src/SonarAnalyzer.Experiments.CSharp/SonarAnalyzer.Experiments.CSharp.csproj" />
+  <Project Path="src/SonarAnalyzer.Experiments.VisualBasic/SonarAnalyzer.Experiments.VisualBasic.vbproj" />
+  <Project Path="test/SonarAnalyzer.Experiments.UnitTests/SonarAnalyzer.Experiments.UnitTests.csproj" />
+</Solution>

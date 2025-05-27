@@ -5,8 +5,9 @@ dotnet_diagnostic.CA1825.severity = warning
 
 # S4158: Empty collections should not be accessed or iterated
 dotnet_diagnostic.S927.severity  = warning
-dotnet_diagnostic.S4158.severity = warning
-dotnet_diagnostic.S2437.severity = warning
-dotnet_diagnostic.S4487.severity = warning
-dotnet_diagnostic.S3949.severity = warning
 dotnet_diagnostic.S1144.severity = warning
+dotnet_diagnostic.S2259.severity = warning
+dotnet_diagnostic.S2437.severity = warning
+dotnet_diagnostic.S3949.severity = warning
+dotnet_diagnostic.S4158.severity = warning
+dotnet_diagnostic.S4487.severity = warning

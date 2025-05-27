@@ -4,13 +4,11 @@
     <TargetFramework>net9.0</TargetFramework>
     <DefineConstants>CONTRACTS_FULL</DefineConstants>
     <DebugType>portable</DebugType>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.7.0.110445">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.10.0.116381" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

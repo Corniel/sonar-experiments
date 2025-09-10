@@ -5,10 +5,11 @@
     <DefineConstants>CONTRACTS_FULL</DefineConstants>
     <DebugType>portable</DebugType>
     <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.11.0.117924" PrivateAssets="all" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.15.0.120848" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

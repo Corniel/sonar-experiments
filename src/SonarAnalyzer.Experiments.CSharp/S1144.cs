@@ -1,4 +1,16 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
+
+public class Applicable
+{
+	public int Value(int value) => new Durs(value)[3];
+
+	[DebuggerDisplay("{this[0]}, {this[1]}, {this[2]}, {this[3]}, {this[4]}")]
+	readonly record struct Durs(int Value)
+	{
+		public int this[int pos] => (Value >> (pos << 2)) & 7; // FP: Called by both Value as DebuggerDisplay.
+	}
+}
 
 namespace SonarAnalyzer.Experiments.CSharp
 {

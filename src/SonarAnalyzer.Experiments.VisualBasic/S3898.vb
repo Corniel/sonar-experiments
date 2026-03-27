@@ -1,4 +1,4 @@
-﻿Namespace S3898.ValueTypeShouldImplementIEquatable
+Namespace S3898.ValueTypeShouldImplementIEquatable
 
     Structure MyStruct ' Noncompliant {{Implement 'IEquatable<T>' in value type 'MyStruct'.}}
         '     ^^^^^^^^

@@ -1,4 +1,4 @@
-﻿using AwesomeAssertions;
+using AwesomeAssertions;
 using NUnit.Framework;
 using SonarAnalyzer.Experiments.CSharp;
 using System.Linq;

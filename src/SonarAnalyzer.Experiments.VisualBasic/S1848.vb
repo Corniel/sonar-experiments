@@ -1,4 +1,4 @@
-﻿Namespace S1848
+Namespace S1848
 
     Enum Compliant
         SomeValue

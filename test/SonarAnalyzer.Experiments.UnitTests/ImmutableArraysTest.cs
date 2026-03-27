@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using ImmutableArrays;
 using System;
 using AwesomeAssertions;

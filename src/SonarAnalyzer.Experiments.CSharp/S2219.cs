@@ -1,4 +1,4 @@
-﻿namespace SonarAnalyzer.Experiments.CSharp
+namespace SonarAnalyzer.Experiments.CSharp
 {
 public class S2219
 {

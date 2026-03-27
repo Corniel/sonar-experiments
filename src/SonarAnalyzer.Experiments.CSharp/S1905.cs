@@ -1,4 +1,4 @@
-﻿namespace SonarAnalyzer.Experiments.CSharp.S1905;
+namespace SonarAnalyzer.Experiments.CSharp.S1905;
 
 class Noncompliant
 {

@@ -1,4 +1,4 @@
-﻿namespace SonarAnalyzer.Experiments.CSharp
+namespace SonarAnalyzer.Experiments.CSharp
 {
     public class S4039 : S4039Double, I4039Int
     {

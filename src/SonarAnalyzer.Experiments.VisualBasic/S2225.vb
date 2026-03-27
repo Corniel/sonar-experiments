@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 
 Class Condition
     Shared Function [When]() As Boolean

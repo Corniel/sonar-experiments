@@ -1,4 +1,4 @@
-﻿ namespace S0927;
+ namespace S0927;
 
 public interface IFace
 {

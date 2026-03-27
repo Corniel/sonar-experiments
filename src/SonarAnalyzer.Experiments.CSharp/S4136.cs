@@ -1,4 +1,4 @@
-﻿using System; // Compliant, used by cref.
+using System; // Compliant, used by cref.
 
 namespace SonarAnalyzer.Experiments.CSharp
 {

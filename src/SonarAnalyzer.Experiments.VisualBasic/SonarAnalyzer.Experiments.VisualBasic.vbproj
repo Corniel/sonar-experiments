@@ -1,15 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>SonarAnalyzer.Experiments.VisualBasic</RootNamespace>
-    <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SonarAnalyzer.VisualBasic" Version="10.17.0.131074">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
+    <PackageReference Include="SonarAnalyzer.VisualBasic" Version="10.32.0.713" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>
